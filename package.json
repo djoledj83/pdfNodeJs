@@ -1,0 +1,20 @@
+{
+  "name": "pdfinvoice",
+  "version": "1.0.0",
+  "description": "Za pravljenje racuna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Milos Djokovic",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^3.1.7",
+    "pdf-creator-node": "^2.3.5"
+  }
+}
